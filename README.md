@@ -24,7 +24,7 @@ and i looked at those.
     Now i have cleaned data a beginner Machine Learning tool that analyses user input data on a website and gives u proper responses
     this is just to prove it works, due to time isses (this project has to be approved by trhe end of march)
 
-## changed ML
+## what changed in the ML code (improvements)
 
     Model 1 was unacurate and didnt recognize upper and lower cases
     Model 2 was slow and didnt undersatand it when i rephrased sentences like : whats the weather today -> today wheater whats it like
