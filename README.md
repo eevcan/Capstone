@@ -17,7 +17,7 @@ and i looked at those.
     
     ->
     2. python generate_questions.py (i already generated about 1000 questions, the more questions the m,ore acurate but due to time issues i only did 1000 to prove)
-    3. python train_model.py (i included one pkl file, its nothing special but it takes long times to train them acurrately)
+    3. python train_model.py (i did not include a file since its very big and cant be uploaded)
     3. python app.py
     4. go to http://127.0.0.1:5000/
 
