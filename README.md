@@ -8,6 +8,35 @@ a lot of Youtubers and more propably played a huge part in this.
 my foxus went onto magic the Gathering, while it maybe doesnt have the biggest data sets, it stil contains some pretty hefty prices
 and i looked at those.
 
+## Needed Libbraries, Presets
+
+General Libraries:
+
+    numpy: import numpy as np – for numerical computations and handling arrays.
+    pandas: import pandas as pd – for data manipulation and analysis.
+    json: import json – for working with JSON data.
+    warnings: import warnings – for controlling warnings (e.g., suppressing them).
+    
+Data Visualization:
+
+    seaborn: import seaborn as sns – for statistical data visualization (built on top of matplotlib).
+    matplotlib: import matplotlib – for basic plotting and data visualization.
+    matplotlib.pyplot: import matplotlib.pyplot as plt – for creating static, animated, and interactive plots.
+
+Machine Learning (ML) and Natural Language Processing (NLP):
+
+    sentence_transformers: from sentence_transformers import SentenceTransformer – for sentence embeddings and NLP tasks.
+    sklearn:
+        KNeighborsClassifier: from sklearn.neighbors import KNeighborsClassifier – for K-Nearest Neighbors classification.
+        LogisticRegression: from sklearn.linear_model import LogisticRegression – for Logistic Regression classification.
+        Pipeline: from sklearn.pipeline import Pipeline – for creating pipelines for preprocessing and modeling.
+        TfidfVectorizer: from sklearn.feature_extraction.text import TfidfVectorizer – for converting text to numerical features using TF-IDF.
+        DecisionTreeClassifier: from sklearn.tree import DecisionTreeClassifier – for Decision Tree classification.
+
+Data Serialization:
+
+    pickle: import pickle – for serializing and deserializing Python objects (e.g., saving models).
+
 
 ## Quick Start
     bash:
