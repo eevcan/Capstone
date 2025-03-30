@@ -34,11 +34,15 @@ def predict_answer(question):
     question_embedding = sentence_model.encode([question])
     
     # Get the closest match
-    distances, indices = clf.kneighbors(question_embedding, n_neighbors=1)
+    distances, indices = clf.kneighbors(question_embedding, n_neighbors=3)
     
     # If the best match is too far, return a fallback response
     if distances[0][0] > 0.5:  # Adjust threshold as needed
-        return "I don't know this yet."
+        # Try to improvise by checking the next best matches
+        improvise_answer = "I'm not entirely sure, but here's something related:"
+        related_answers = [answers[i] for i in indices[0]]
+        improvise_answer += " " + ", ".join(related_answers)
+        return improvise_answer
     
     return answers[indices[0][0]]
 
