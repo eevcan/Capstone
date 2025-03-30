@@ -25,7 +25,8 @@ and i looked at those.
     this is just to prove it works, due to time isses (this project has to be approved by trhe end of march)
 
 
-    Example Questions to ask:
+
+## Example Questions to ask:
         whats the manacost of angel of mercy
         whats the number of angel of mercy
         rarity of angel of mercy
