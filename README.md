@@ -24,6 +24,15 @@ and i looked at those.
     Now i have cleaned data a beginner Machine Learning tool that analyses user input data on a website and gives u proper responses
     this is just to prove it works, due to time isses (this project has to be approved by trhe end of march)
 
+
+    Example Questions to ask:
+        whats the manacost of angel of mercy
+        whats the number of angel of mercy
+        rarity of angel of mercy
+        angel of mercy Originaltext
+        manaCost from angel of mercy
+        What is the type of Ancestor's Chosen?
+
 # Blog Post to share my new insights
     
   ## https://medium.com/@eevcoh/the-rising-price-of-trading-cards-bfed6966aab7
