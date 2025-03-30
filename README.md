@@ -12,30 +12,30 @@ and i looked at those.
 
 General Libraries:
 
-    numpy: import numpy as np – for numerical computations and handling arrays.
-    pandas: import pandas as pd – for data manipulation and analysis.
-    json: import json – for working with JSON data.
-    warnings: import warnings – for controlling warnings (e.g., suppressing them).
+    numpy: import numpy as np 
+    pandas: import pandas as pd 
+    json: import json
+    warnings: import warnings 
     
 Data Visualization:
 
-    seaborn: import seaborn as sns – for statistical data visualization (built on top of matplotlib).
-    matplotlib: import matplotlib – for basic plotting and data visualization.
-    matplotlib.pyplot: import matplotlib.pyplot as plt – for creating static, animated, and interactive plots.
+    seaborn: import seaborn as sns
+    matplotlib: import matplotlib 
+    matplotlib.pyplot: import matplotlib.pyplot as plt
 
 Machine Learning (ML) and Natural Language Processing (NLP):
 
-    sentence_transformers: from sentence_transformers import SentenceTransformer – for sentence embeddings and NLP tasks.
+    sentence_transformers: from sentence_transformers import SentenceTransformer
     sklearn:
-        KNeighborsClassifier: from sklearn.neighbors import KNeighborsClassifier – for K-Nearest Neighbors classification.
-        LogisticRegression: from sklearn.linear_model import LogisticRegression – for Logistic Regression classification.
-        Pipeline: from sklearn.pipeline import Pipeline – for creating pipelines for preprocessing and modeling.
-        TfidfVectorizer: from sklearn.feature_extraction.text import TfidfVectorizer – for converting text to numerical features using TF-IDF.
-        DecisionTreeClassifier: from sklearn.tree import DecisionTreeClassifier – for Decision Tree classification.
+        KNeighborsClassifier: from sklearn.neighbors import KNeighborsClassifier
+        LogisticRegression: from sklearn.linear_model import LogisticRegression
+        Pipeline: from sklearn.pipeline import Pipeline
+        TfidfVectorizer: from sklearn.feature_extraction.text import TfidfVectorizer
+        DecisionTreeClassifier: from sklearn.tree import DecisionTreeClassifier
 
 Data Serialization:
 
-    pickle: import pickle – for serializing and deserializing Python objects (e.g., saving models).
+    pickle: import pickle
 
 
 ## Quick Start
