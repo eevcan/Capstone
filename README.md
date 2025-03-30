@@ -12,13 +12,16 @@ and i looked at those.
 ## Quick Start
     bash:
     1. cd (to the folder that was just downloaded)
+    2. the data is already cleaned via "python data_analyse_modeling.py"          
     
     ->
-    2. Ive put the csv Files into a Zip-Archive since they are too big to upload, so please unzip them to continue
-    3. python ETL.py
+    2. python generate_questions.py (i already generated about 1000 questions, the more questions the m,ore acurate but due to time issues i only did 1000 to prove)
+    3. python train_model.py (i included one pkl file, its nothing special but it takes long times to train them acurrately)
+    3. python app.py
+    4. go to http://127.0.0.1:5000/
 
-    Now u can see Data being cleaned searched for NAN values and duplicates, it cleans them and then prints out barcharts i found interestingf for my purpose
-    if wanted we can update the csv files anytime, im planning on downloading it automaticly but this is beyond my capibilities atm.
+    Now i have cleaned data a beginner Machine Learning tool that analyses user input data on a website and gives u proper responses
+    this is just to prove it works, due to time isses (this project has to be approved by trhe end of march)
 
 # Blog Post to share my new insights
     
