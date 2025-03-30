@@ -24,6 +24,13 @@ and i looked at those.
     Now i have cleaned data a beginner Machine Learning tool that analyses user input data on a website and gives u proper responses
     this is just to prove it works, due to time isses (this project has to be approved by trhe end of march)
 
+## changed ML
+
+    Model 1 was unacurate and didnt recognize upper and lower cases
+    Model 2 was slow and didnt undersatand it when i rephrased sentences like : whats the weather today -> today wheater whats it like
+    Model 3 -> didnt improve as i wanted
+    Model 4 (active) This one was when i found out About sentence transformer, this made the plk learning process faster and immensly accurate
+
 
 
 ## Example Questions to ask:
