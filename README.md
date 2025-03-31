@@ -40,7 +40,7 @@ Data Serialization:
 
 ## Quick Start
     bash:
-    0. extract datas.zip into "cardcosts\data" here will be a extract_here.txt
+    0. extract the two csv files from datas.zip into "cardcosts\data" here will be a extract_here.txt
     1. cd (to the folder that was just downloaded)
     2. the data is already cleaned via "python data_analyse_modeling.py"          
     
