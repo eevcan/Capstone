@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Load the card data
-cards = pd.read_csv("cards.csv")
+cards = pd.read_csv("data/cards.csv")
 
 # List to store questions and answers
 questions = []
